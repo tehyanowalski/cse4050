@@ -6,27 +6,49 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="script.js" defer></script>
   <link href="styles.css" rel="stylesheet">
-  <title>Cedric Allen</title>
+  <title>Ceddy the Morkie</title>
 </head>
+<head>
+  <style>
+  .p1 {
+    font-family: Marker Felt;
+  }
+  
+  .p2 {
+    font-family: Chalkduster, fantasy;
+  }
+  
+  .p3 {
+    font-family: cursive;
+  }
+  </style>
+  </head>
 <body>
   <ul class="tabs">
-    <li data-tab-target="#bio" class="active tab">bio</li>
-    <li data-tab-target="#favorites" class="tab">favorites</li>
-    <li data-tab-target="#pictures" class="tab">pictures</li>
+    <li data-tab-target="#bio" class="active tab"><p class="p1">Bio</li></p>
+    <li data-tab-target="#favorites" class="tab"><p class="p1">Favorites</li></p>
+    <li data-tab-target="#pictures" class="tab"><p class="p1">Look Book</li></p>
   </ul>
 
   <div class="tab-content">
     <div id="bio" data-tab-content class="active">
-      <h1>Bio</h1>
-      <p>hi im cedric but, you can call me ceddy</p>
+      <h1><p class="p1">About Me...</h1></p>
+      <img class="img-cedricallen" src="img/cedricallen.jpg" alt="cedric">
+      <p class="p3">Hi! My name is Cedric Allen but, you can call me Ceddy.</p>
+      <p class="p3">I am a Morkie. (Maltese + Yorkie)</p>
+      <p class="p3">My birthday is October 3, 2019. I am 2 years old!</p>
     </div>
     <div id="favorites" data-tab-content>
-      <h1>Favorites</h1>
-      <p>some of my favorite things</p>
+      <h1><p class="p1">These are a few of my favorite things...</h1></p>
+      <p class="p3">Mom's Shoes</p>
+      <p class="p3">Boiled Chicken</p>
+      <p class="p3">Starbucks Pup-accino</p>
+    
     </div>
     <div id="pictures" data-tab-content>
-      <h1>Pictures</h1>
-      <p>cute pictures of me</p>
+      <h1><p class="p2">Some of my favorite moments...</h1></p>
+      <p class="p3">How do I look?</p>
+      <img class="img-cedricallen" src="img/cedricallen.jpg" alt="cedric">
     </div>
   </div>
 </body>
