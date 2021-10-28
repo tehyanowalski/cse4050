@@ -17,7 +17,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 6px solid rgb(49, 214, 214);
   }
   
   .tab {
@@ -26,14 +26,18 @@
   }
   
   .tab.active {
-    background-color: #CCC;
+    background-color: rgb(49, 214, 214);
   }
   
   .tab:hover {
-    background-color: #AAA;
+    background-color: rgba(49, 214, 214, 0.493);
   }
   
   .tab-content {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .img-cedricallen {
+    width: 300px;
   }
