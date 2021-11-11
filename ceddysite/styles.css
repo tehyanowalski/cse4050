@@ -8,7 +8,10 @@
   
   body {
     padding: 0;
-    margin: 0;
+    width: 900px;
+    height: 0 auto;
+    margin: 0 auto;
+    background-color: rgb(180, 235, 218);
   }
   
   .tabs {
@@ -17,20 +20,27 @@
     list-style-type: none;
     margin: 0;
     padding: 10;
-    border-bottom: 4px solid rgb(255, 115, 0);
+    border-bottom: 8px solid navy;
+    background-color: rgba(112, 128, 144, 0.507);
   }
   
+  div {
+    background-color: rgb(180, 235, 218);
+  }
+  .p1 {
+    font-family: cursive
+  }
   .tab {
     cursor: pointer;
     padding: 6px;
   }
   
   .tab.active {
-    background-color: rgb(49, 214, 214);
+    background-color: slategray;
   }
   
   .tab:hover {
-    background-color: rgba(49, 214, 49, 0.671);
+    background-color: rgba(0, 0, 128, 0.5);
   }
   
   .tab-content {
@@ -38,10 +48,35 @@
     margin-right: 20px;
   }
 
-  .img-cedricallen {
-    width: 150px;
-  }
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+  .img-model1 {
+    width: 180px;
+  }
+  .img-model2 {
+    width: 180px;
+  }
+  .img-model3 {
+    width: 180px;
+  }
   .img-ceddyhalloween {
-      width: 150px;
+      width: 180px;
+  }
+  .img-cedricallen {
+    width: 180px;
+  }
+  .img-ceddyplay {
+    width: 180px;
   }
