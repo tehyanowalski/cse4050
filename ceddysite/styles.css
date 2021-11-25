@@ -1,3 +1,4 @@
+
 [data-tab-content] {
     display: none;
   }
@@ -5,7 +6,7 @@
   .active[data-tab-content] {
     display: block;
   }
-  
+
   body {
     padding: 0;
     width: 900px;
@@ -14,6 +15,7 @@
     background-color: rgb(180, 235, 218);
   }
   
+
   .tabs {
     display: flex;
     justify-content: space-around;
@@ -22,14 +24,35 @@
     padding: 10;
     border-bottom: 8px solid navy;
     background-color: rgba(112, 128, 144, 0.507);
+    color: rgba(0, 0, 128, 0.808);
+    font-size: 16px;
+    font-weight: bold;
+    font-variant: small-caps;
   }
   
+  footer {
+    display: inline;
+    justify-content: center;
+    padding: 0px;
+    font-size: 8px;
+    font-stretch: ultra-condensed;
+    color: #fff;
+}
+
   div {
-    background-color: rgb(180, 235, 218);
+    background-color: rgb(124, 137, 255);
   }
   .p1 {
     font-family: cursive
   }
+
+  h1 {
+    color: rgb(28, 255, 244);
+    text-shadow: 1px 1px 2px black, 0 0 25px powderblue, 0 0 5px darkblue;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+
   .tab {
     cursor: pointer;
     padding: 6px;
@@ -63,13 +86,13 @@
 }
 
   .img-model1 {
-    width: 180px;
+    width: 380px;
   }
   .img-model2 {
-    width: 180px;
+    width: 380px;
   }
   .img-model3 {
-    width: 180px;
+    width: 380px;
   }
   .img-ceddyhalloween {
       width: 180px;
