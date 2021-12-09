@@ -1,4 +1,5 @@
 
+
 [data-tab-content] {
     display: none;
   }
@@ -12,7 +13,7 @@
     width: 900px;
     height: 0 auto;
     margin: 0 auto;
-    background-color: rgb(180, 235, 218);
+    background-color:rgba(81, 160, 92, 0.644);
   }
   
 
@@ -22,9 +23,9 @@
     list-style-type: none;
     margin: 0;
     padding: 10;
-    border-bottom: 8px solid navy;
-    background-color: rgba(112, 128, 144, 0.507);
-    color: rgba(0, 0, 128, 0.808);
+    border-bottom: 8px solid darkgreen;
+    background-color: rgba(81, 160, 92, 0.644);
+    color: whitesmoke;
     font-size: 16px;
     font-weight: bold;
     font-variant: small-caps;
@@ -36,19 +37,25 @@
     padding: 0px;
     font-size: 8px;
     font-stretch: ultra-condensed;
-    color: #fff;
+    color: rgba(81, 160, 92, 0.644);
 }
 
   div {
-    background-color: rgb(124, 137, 255);
+    background-color: rgba(81, 160, 91, 0.445);
   }
+  
   .p1 {
-    font-family: cursive
+    font-family: 'Grandstander';
+    font-size: 20px;
   }
 
+  .p2{
+    font-family: 'Jua';
+    font-size: 50px;
+  }
   h1 {
-    color: rgb(28, 255, 244);
-    text-shadow: 1px 1px 2px black, 0 0 25px powderblue, 0 0 5px darkblue;
+    color: rgb(37, 93, 197);
+    text-shadow: 1px 1px 2px whitesmoke, 0 0 25px whitesmoke, 0 0 5px whitesmoke;
     font-weight: 900;
     font-variant: small-caps;
   }
@@ -59,11 +66,11 @@
   }
   
   .tab.active {
-    background-color: slategray;
+    background-color: darkseagreen;
   }
   
   .tab:hover {
-    background-color: rgba(0, 0, 128, 0.5);
+    background-color: darkseagreen;
   }
   
   .tab-content {
@@ -86,20 +93,20 @@
 }
 
   .img-model1 {
-    width: 380px;
+    width: 280px;
   }
   .img-model2 {
-    width: 380px;
+    width: 280px;
   }
   .img-model3 {
-    width: 380px;
+    width: 280px;
   }
   .img-ceddyhalloween {
-      width: 180px;
+      width: 280px;
   }
   .img-cedricallen {
-    width: 180px;
+    width: 280px;
   }
   .img-ceddyplay {
-    width: 180px;
+    width: 280px;
   }
